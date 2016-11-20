@@ -196,6 +196,10 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\SlideShow1.jpg" />
+    <Content Include="Images\SlideShow2.jpg" />
+    <Content Include="Images\SlideShow3.jpg" />
+    <Content Include="Images\thumbcrousel.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.min.js" />
