@@ -37,7 +37,7 @@
       </head>
       <body>
     <!-- Header -->
-       <nav class="navbar navbar-default">
+       <nav class="navbar navbar-default" style="border-radius:0px ; margin-bottom:0px;">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -54,7 +54,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="men-selection">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="Default.aspx">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="Default.aspx">Home <span class="sr-only"></span></a></li>
                   <li><a href="About.aspx">About Us</a></li>
                 <li class="dropdown">
                   <a href="Product.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Men <span class="caret"></span></a>
@@ -144,6 +144,113 @@
             </div>
 
         <!-- End Slide Show -->
+
+          <!--footer-->
+            <footer class="footer1">
+            <div class="container">
+
+            <div class="row"><!-- row -->
+            
+                            <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                            <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	            <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                            <h3 class="title-widget">Customer Service</h3>
+                                
+                                            <ul>
+                                	            <li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> FAQ</a></li>
+                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Shipping</a></li>
+                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Size Guide</a></li>
+                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Track Order</a></li>
+                                            </ul>
+                    
+							            </li>
+                            
+                                    </ul>
+                         
+                      
+                            </div><!-- widgets column left end -->
+                
+                
+                
+                            <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                            <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	            <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                            <h3 class="title-widget">About RAZOLA</h3>
+                                
+                                            <ul>
+ 									            <li><a  href="#"><i class="fa fa-angle-double-right"></i>  RAZOLA</a></li>
+                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Careers</a></li>
+                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Term & Condition</a></li>
+                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Privacy Policy</a></li>
+                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Promotion</a></li>
+                                            </ul>
+                    
+							            </li>
+                            
+                                    </ul>
+                         
+                      
+                            </div><!-- widgets column left end -->
+                
+                
+                            <div class="col-lg-3 col-md-3"><!-- widgets column center -->
+                
+                   
+                    
+                                    <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	            <li class="widget-container widget_recent_news"><!-- widgets list -->
+                    
+                                            <h3 class="title-widget">Contact Us </h3>
+                                
+                                            <div class="footerp"> 
+                                
+                                            <h2 class="title-median">RAZOLA</h2>
+                                            <p><b>Email Us:</b> <a href="mailto:info@razola.com">info@razola.com</a></p>
+                                            <p><b>Helpline Numbers </b>
+
+                <b style="color:#ffc106;">(8AM to 10PM):</b>  +03-888 3838, 1300 888 3838  </p>
+    
+                                            </div>
+                        
+                    		            </li>
+                                        </ul>
+                                    </div>
+                            </div>
+            </div>
+            </footer>
+
+            <div class="footer-bottom">
+
+	            <div class="container">
+
+		            <div class="row">
+
+			            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				            <div class="copyright">
+
+					           <p>Copyright &copy; <%: DateTime.Now.Year %> - RAZOLA All Right Reserved.
+
+				            </div>
+
+			            </div>
+
+			            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+			            </div>
+
+		            </div>
+
+	            </div>
+
+            </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery.min.js"></script>
