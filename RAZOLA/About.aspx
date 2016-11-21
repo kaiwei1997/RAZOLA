@@ -2,13 +2,14 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
-        <h1><%: Title %>.</h1>
+        <h1>About Us</h1>
         <h2>Your app description page.</h2>
     </hgroup>
 
     <article>
         <p>        
-            Use this area to provide additional information.
+            RAZOLA is found in year 2016. RAZOLA is Malaysia leading online fashion destination. RAZOLA provide a wide variety of 
+            stylish and also provide the current fashion trends for men and women and the child too. 
         </p>
 
         <p>        
