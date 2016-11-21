@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>RAZOLA</title>
-
+        
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -49,25 +49,11 @@
             <div class="collapse navbar-collapse" id="men-selection">
               <ul class="nav navbar-nav">
                 <li class="dropdown">
-                  <a href="Product.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Men <span class="caret"></span></a>
+                  <a href="Product.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SHOP <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">New In</a></li>
-                    <li><a href="#">Shoe</a></li>
-                    <li><a href="#">Clothing</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Bags</a></li>
+                    <li><a href="Men.aspx">MEN</a></li>
+                    <li><a href="Women.aspx">WOMEN</a></li>
                   </ul>
-                  <li class="dropdown">
-                  <a href="Product.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Women <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                    <li><a href="#">New In</a></li>
-                    <li><a href="#">Shoe</a></li>
-                    <li><a href="#">Clothing</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Bags</a></li>
-                    <li><a href="#">Beauty</a></li>
-                  </ul>
-                </li>
                   <li><a href="About.aspx">About Us</a></li>
                   <li><a href="Contact.aspx">Contact Us</a></li>
               </ul>

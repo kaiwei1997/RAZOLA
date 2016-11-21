@@ -56,7 +56,7 @@
         }
     </style>
     <form id="form1" runat="server">
-    <section class="featured">
+    <section class="main">
         <div class="content-wrapper">
             <hgroup class="title">
                 <h1>Special Discount</h1>
@@ -67,13 +67,10 @@
                     <br />
                     <asp:Image ID="ProductImage1" runat="server"  Width="<%# 100 %>" ImageUrl='<%# Eval("ProductImage") %>' />
                     <br />
-                    Regular Price:
                     <asp:Label ID="PriceLabel" runat="server" Text='<%# Eval("Price"," Regularly {0:c}") %>' />
                     <br />
-                    Offer:
                     <asp:Label ID="OffertextLabel" runat="server" Text='<%# Eval("Offertext") %>' />
                     <br />
-                    Sale Price:
                     <asp:Label ID="SalePriceLabel" runat="server" Text='<%# Eval("SalePrice", "Now only @ {0:c} !") %>' />
 <br />
                     <br />
