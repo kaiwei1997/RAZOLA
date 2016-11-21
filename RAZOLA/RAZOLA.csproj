@@ -196,6 +196,8 @@
     <Content Include="Images\orderedList9.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="ProductImages\FitBit.jpg" />
+    <Content Include="ProductImages\RawRow.jpg" />
     <Content Include="Images\SlideShow1.jpg" />
     <Content Include="Images\SlideShow2.jpg" />
     <Content Include="Images\SlideShow3.jpg" />
