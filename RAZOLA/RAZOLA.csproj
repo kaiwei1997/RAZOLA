@@ -237,6 +237,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\ShoppingCart.cs" />
+    <Compile Include="App_Code\CartItem.cs" />
     <Compile Include="Women.aspx.cs">
       <DependentUpon>Women.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
