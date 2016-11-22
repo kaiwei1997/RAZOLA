@@ -69,13 +69,5 @@ namespace RAZOLA
                 _quantity = value;
             }
         }
-
-        public decimal Total
-        {
-            get
-            {
-                return _price * _quantity;
-            }
-        }
     }
 }

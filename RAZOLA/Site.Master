@@ -65,14 +65,8 @@
                 <button type="submit" class="btn btn-default">Search</button>
               </form>
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Go To Cart</a></li>
+                <li><a href="Cart.aspx">Go To Cart</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Member <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Create an account</a></li>
-                    <li><a href="#">Track My Order</a></li>
-                  </ul>
                 </li>
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -105,11 +99,9 @@
                                             <h3 class="title-widget">Customer Service</h3>
                                 
                                             <ul>
-                                	            <li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
-                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> FAQ</a></li>
-                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Shipping</a></li>
-                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Size Guide</a></li>
-                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Track Order</a></li>
+                                                <li><a  href="FAQ.aspx"><i class="fa fa-angle-double-right"></i> FAQ</a></li>
+                                                <li><a  href="Shipping.aspx"><i class="fa fa-angle-double-right"></i> Shipping</a></li>
+                                                <li><a  href="SizeGuide.aspx"><i class="fa fa-angle-double-right"></i> Size Guide</a></li>
                                             </ul>
                     
 							            </li>
@@ -130,11 +122,11 @@
                                             <h3 class="title-widget">About RAZOLA</h3>
                                 
                                             <ul>
- 									            <li><a  href="#"><i class="fa fa-angle-double-right"></i>  RAZOLA</a></li>
-                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Careers</a></li>
-                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Term & Condition</a></li>
-                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Privacy Policy</a></li>
-                                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Promotion</a></li>
+ 									            <li><a  href="About.aspx"><i class="fa fa-angle-double-right"></i>  RAZOLA</a></li>
+                                                <li><a  href="Careers.aspx"><i class="fa fa-angle-double-right"></i>  Careers</a></li>
+                                                <li><a  href="TC.aspx"><i class="fa fa-angle-double-right"></i>  Term & Condition</a></li>
+                                                <li><a  href="PP.aspx"><i class="fa fa-angle-double-right"></i>  Privacy Policy</a></li>
+                                                <li><a  href="Promotion.aspx"><i class="fa fa-angle-double-right"></i>  Promotion</a></li>
                                             </ul>
                     
 							            </li>
@@ -182,7 +174,7 @@
 
 				            <div class="copyright">
 
-					           <p>Copyright &copy; <%: DateTime.Now.Year %> - RAZOLA All Right Reserved.
+					           <p>Copyright &copy; <%: DateTime.Now.Year %> - RAZOLA All Right Reserved. || Design By Team 2
 
 				            </div>
 

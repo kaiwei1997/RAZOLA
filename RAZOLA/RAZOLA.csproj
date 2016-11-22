@@ -118,6 +118,7 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Cart.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -197,8 +198,11 @@
     <Content Include="Images\orderedList9.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Women.jpg" />
     <Content Include="Men.aspx" />
     <Content Include="ProductImages\FitBit.jpg" />
+    <Content Include="ProductImages\NewIn1.jpg" />
+    <Content Include="ProductImages\NewIn2.jpg" />
     <Content Include="ProductImages\RawRow.jpg" />
     <Content Include="Images\SlideShow1.jpg" />
     <Content Include="Images\SlideShow2.jpg" />
@@ -216,6 +220,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="ProductImages\Shoe1.jpg" />
+    <Content Include="ProductImages\Shoe2.jpg" />
+    <Content Include="ProductImages\Shoe3.jpg" />
+    <Content Include="ProductImages\Shoe4.jpg" />
+    <Content Include="ProductImages\Shoe5.jpg" />
     <Content Include="Women.aspx" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -237,8 +246,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Code\ShoppingCart.cs" />
-    <Compile Include="App_Code\CartItem.cs" />
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CartItem.cs" />
+    <Compile Include="ShoppingCart.cs" />
     <Compile Include="Women.aspx.cs">
       <DependentUpon>Women.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -246,8 +262,6 @@
     <Compile Include="Women.aspx.designer.cs">
       <DependentUpon>Women.aspx</DependentUpon>
     </Compile>
-    <Content Include="App_Code\ApplicationConfiguration.cs" />
-    <Content Include="App_Code\GenericDataAccess.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>

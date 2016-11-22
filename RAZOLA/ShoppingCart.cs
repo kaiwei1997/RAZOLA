@@ -34,14 +34,5 @@ namespace RAZOLA
                 _cart.Add(item);
             }
         }
-        public void UpdateQuantity(int index, int quantity)
-        {
-            CartItem item = _cart[index];
-            item.Quantity = quantity;
-        }
-        public void DeleteItem(int index)
-        {
-            _cart.RemoveAt(index);
-        }
     }
 }

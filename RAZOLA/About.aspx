@@ -2,8 +2,7 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
-        <h1>About Us</h1>
-        <h2>Your app description page.</h2>
+        <h1>About RAZOLA</h1>
     </hgroup>
 
     <article>
@@ -12,24 +11,15 @@
             stylish and also provide the current fashion trends for men and women and the child too. 
         </p>
 
+        <h4>Fast Delivery</h4>
         <p>        
-            Use this area to provide additional information.
+            Our customers call it "flash shipping" - as we usually ship out orders the same day!
         </p>
 
+       <h4>Product Range</h4>
         <p>        
-            Use this area to provide additional information.
+            On RAZOLA, customers will find big brands such as Nike, American Apparel, New Look, River Island and many more to come.
         </p>
     </article>
 
-    <aside>
-        <h3>Aside Title</h3>
-        <p>        
-            Use this area to provide additional information.
-        </p>
-        <ul>
-            <li><a runat="server" href="~/">Home</a></li>
-            <li><a runat="server" href="~/About">About</a></li>
-            <li><a runat="server" href="~/Contact">Contact</a></li>
-        </ul>
-    </aside>
 </asp:Content>
